@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Spice Harbor serves authentic Sri Lankan cuisine, fresh seafood, traditional rice and curry, and delicious local dishes in Tangalle, Sri Lanka.">
+
+<meta name="keywords" content="Sri Lankan restaurant, restaurant in Tangalle, Tangalle restaurant, Sri Lankan food, rice and curry, seafood">
+
+<meta name="author" content="Spice Harbor">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Spice Harbor | Sri Lankan Restaurant</title>
-
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌶️</text></svg>">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,6 +29,7 @@
     <li><a href="#home">Home</a></li>
     <li><a href="#menu">Menu</a></li>
     <li><a href="#about">About</a></li>
+    <li><a href="#reservation">Reserve</a></li>
     <li><a href="#contact">Contact</a></li>
 </ul>
         </nav>
@@ -59,34 +65,111 @@
 
         <div class="menu-container">
 
-            <div class="menu-card">
-                <img class="food-image"
-     src="https://images.unsplash.com/photo-1601050690597-df0568f70950"
-     alt="Rice and curry">
-                <h3>Rice & Curry</h3>
-                <p>Traditional Sri Lankan rice with delicious curries.</p>
-                <span>Rs. 850</span>
-            </div>
+    <!-- Rice & Curry -->
+    <div class="menu-card">
 
-            <div class="menu-card">
-                <img class="food-image"
-     src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b"
-     alt="Spicy chicken">
-                <h3>Spicy Chicken</h3>
-                <p>Tender chicken cooked with our special spice blend.</p>
-                <span>Rs. 950</span>
-            </div>
+        <img class="food-image"
+             src="https://images.unsplash.com/photo-1601050690597-df0568f70950"
+             alt="Sri Lankan rice and curry">
 
-            <div class="menu-card">
-                <img class="food-image"
-     src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47"
-     alt="Prawns">
-                <h3>Devilled Prawns</h3>
-                <p>Fresh prawns tossed with spicy Sri Lankan flavors.</p>
-                <span>Rs. 1,200</span>
-            </div>
+        <div class="menu-category">RICE & CURRY</div>
 
+        <h3>Traditional Rice & Curry</h3>
+
+        <p>
+            Fragrant rice served with delicious
+            Sri Lankan vegetable and curry dishes.
+        </p>
+
+        <span>Rs. 850</span>
+
+    </div>
+
+
+    <!-- Main Dish -->
+    <div class="menu-card">
+
+        <img class="food-image"
+             src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b"
+             alt="Spicy chicken">
+
+        <div class="menu-category">MAIN DISHES</div>
+
+        <h3>Spicy Chicken</h3>
+
+        <p>
+            Tender chicken cooked with our
+            signature Sri Lankan spice blend.
+        </p>
+
+        <span>Rs. 950</span>
+
+    </div>
+
+
+    <!-- Prawns -->
+    <div class="menu-card">
+
+        <img class="food-image"
+             src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47"
+             alt="Devilled prawns">
+
+        <div class="menu-category">SEAFOOD</div>
+
+        <h3>Devilled Prawns</h3>
+
+        <p>
+            Fresh prawns tossed with spicy
+            Sri Lankan flavours.
+        </p>
+
+        <span>Rs. 1,200</span>
+
+    </div>
+
+
+    <!-- Drinks -->
+    <div class="menu-card">
+
+        <div class="food-image drink-image">
+            🥤
         </div>
+
+        <div class="menu-category">DRINKS</div>
+
+        <h3>Fresh Lime Juice</h3>
+
+        <p>
+            Freshly squeezed lime with a
+            refreshing sweet and sour taste.
+        </p>
+
+        <span>Rs. 350</span>
+
+    </div>
+
+
+    <!-- Dessert -->
+    <div class="menu-card">
+
+        <div class="food-image drink-image">
+            🍰
+        </div>
+
+        <div class="menu-category">DESSERTS</div>
+
+        <h3>Watalappan</h3>
+
+        <p>
+            Traditional Sri Lankan coconut
+            custard with a rich caramel flavour.
+        </p>
+
+        <span>Rs. 450</span>
+
+    </div>
+
+</div>
 
     </section>
 
@@ -113,6 +196,111 @@
 
     </section>
 
+<section id="reservation" class="reservation-section">
+
+    <div class="section-title">
+        <p>BOOK YOUR TABLE</p>
+        <h2>Reserve a Table</h2>
+    </div>
+
+    <form class="reservation-form">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <input type="date" required>
+
+        <input type="time" required>
+
+        <input type="number" placeholder="Number of Guests" min="1" required>
+
+        <textarea placeholder="Special Requests"></textarea>
+
+        <button type="submit">Reserve Now</button>
+
+    </form>
+
+</section>
+<section class="features-section">
+
+    <div class="section-title">
+        <p>WHY SPICE HARBOR</p>
+        <h2>Made With Passion</h2>
+    </div>
+
+    <div class="features-container">
+
+        <div class="feature-card">
+            <div class="feature-icon">🍛</div>
+            <h3>Authentic Flavors</h3>
+            <p>Traditional Sri Lankan recipes prepared with carefully selected spices.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🥬</div>
+            <h3>Fresh Ingredients</h3>
+            <p>Fresh ingredients prepared daily to give every dish a delicious taste.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">❤️</div>
+            <h3>Made With Love</h3>
+            <p>Every meal is prepared with passion and attention to detail.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- Reviews Section -->
+<section class="reviews-section">
+
+    <div class="section-title">
+        <p>WHAT OUR CUSTOMERS SAY</p>
+        <h2>Customer Reviews</h2>
+    </div>
+
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                "Amazing food and great service!
+                The rice and curry was absolutely delicious."
+            </p>
+
+            <h3>Kasun</h3>
+            <span>Local Customer</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                "One of the best places to enjoy
+                authentic Sri Lankan food."
+            </p>
+
+            <h3>Nethmi</h3>
+            <span>Local Customer</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                "Friendly staff, delicious food,
+                and a really nice atmosphere."
+            </p>
+
+            <h3>Ravindu</h3>
+            <span>Local Customer</span>
+        </div>
+
+    </div>
+
+</section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
@@ -124,9 +312,9 @@
 
         <div class="contact-info">
 
-            <p>📍 Tangalle, Sri Lanka</p>
-            <p>📞 +94 77 123 4567</p>
-            <p>✉️ hello@spiceharbor.com</p>
+        <p>📍 Tangalle, Sri Lanka</p>
+        <p>📞 +94 70 000 0000</p>
+        <p>✉️ hello@spiceharbor.demo</p>
 
         </div>
 <a
